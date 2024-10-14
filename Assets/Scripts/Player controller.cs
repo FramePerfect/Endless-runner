@@ -42,7 +42,7 @@ public class PlayerController : MonoBehaviour
         arm = this.gameObject.transform.GetChild(0); //gets the arm transform
         
         maxNumJumps = 2;
-        numJumps = 2;
+        numJumps = 0;
         springjoint.enabled = false;
         rope.positionCount = precision;
         rope.enabled = false;
@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
         //Debug.Log(collision.gameObject);
         if(collision.gameObject.CompareTag("Ground"))
         {
-            numJumps = maxNumJumps;
+            numJumps = 0;
         }
     }
 
