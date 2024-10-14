@@ -222,6 +222,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1270738945037093241, guid: 979b8c405b3404643ac96604f3f13475, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3191713885609663452, guid: 979b8c405b3404643ac96604f3f13475, type: 3}
       propertyPath: resumebtn
       value: 
