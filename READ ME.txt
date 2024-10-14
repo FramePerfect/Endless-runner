@@ -1,0 +1,5 @@
+READ ME
+
+Basic endless runner platformer 
+
+space to jump , hold leftclick to grapple, the diamonds are jump refreshes, red arrows are speed down green are speed up, yellow circles are score, and the red blocks are death planes theres also a death plane below the map.
